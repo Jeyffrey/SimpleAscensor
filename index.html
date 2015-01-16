@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Mon propre ascenseur</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="initial-scale=1.0">
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<nav id="menu">
+		<a href="#slide1">Etage 1</a>
+		<a href="#slide2">Etage 2</a>
+		<a href="#slide3">Etage 3</a>
+	</nav>
+
+	<h1>A simple jQuery Ascensor</h1>
+	<p class="subtitle">
+		<a href="#" title="GitHub repository" target="_blank">Check on Github</a>
+	</p>
+	
+	<div id="slide1" class="page" data-x="0" data-y="0"></div>
+	<div id="slide2" class="page" data-x="1" data-y="1"></div>
+	<div id="slide3" class="page" data-x="2" data-y="2"></div>
+
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+	<script src="js/script.js" type="text/javascript"></script>
+	<script>
+		$('#menu a').simpleAscensor(750);
+	</script>
+</body>
+</html>
