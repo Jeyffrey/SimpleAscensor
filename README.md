@@ -26,7 +26,7 @@ Just a simple jQuery elevator system
 ```
 
 
-* To chose your slide position : add two attributes to your *div / article / section* slide element
+* To choose your slide position : add two attributes to your *div / article / section* slide element
   * ***data-x="?"*** &rarr; for x-axis position
   * ***data-y="?"*** &rarr; for y-axis position
 
