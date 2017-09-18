@@ -1,8 +1,6 @@
 # SimpleAscensor
 Just a simple jQuery elevator system
 
-&rarr; <a href="http://jeyffrey.fr/work/simpleascensor/" title="Demo" target="_blank">DEMO</a>
-
 #### How to
 
 * Initialize
